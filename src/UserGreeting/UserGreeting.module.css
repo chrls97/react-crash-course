@@ -1,0 +1,14 @@
+.welcome-message{
+  border-radius: 5px;
+  padding:10px;
+  background-color: rgb(89, 146, 89);
+  color: white;
+}
+
+.login-message{
+  border-radius: 5px;
+  padding:10px;  
+  background-color: rgb(172, 62, 62);
+  color: white;
+
+}

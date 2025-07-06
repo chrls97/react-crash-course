@@ -1,7 +1,11 @@
+import Hooks from './Hooks.jsx';
+import Counter from './Counter.jsx';
 
 function App() {
   return (
-    <h1>React Course Tutorial</h1>
+    <>
+      <Counter />
+    </>
   )
 }
 

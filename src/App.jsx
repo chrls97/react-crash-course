@@ -1,7 +1,10 @@
+import ColorPicker from "./ColorPicker"
 
 function App() {
   return (
-    <h1>React Course Tutorial</h1>
+    <>
+      <ColorPicker />
+    </>
   )
 }
 

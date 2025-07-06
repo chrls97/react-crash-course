@@ -1,0 +1,19 @@
+.listCategory{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;  
+  padding: 10px;
+  background-color: rgb(84, 190, 84);
+  color: white;
+  text-align: center;
+  
+}
+
+.listItems{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  list-style: none;
+  text-align: center;
+  margin:0;
+}

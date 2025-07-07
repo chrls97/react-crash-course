@@ -1,8 +1,11 @@
+import MyComponent from './MyComponent.jsx'
 
 function App() {
   return (
-    <h1>React Course Tutorial</h1>
+    <>
+      <MyComponent />
+    </>
   )
 }
 
-export default App
+export default App;

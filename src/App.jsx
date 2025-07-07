@@ -1,7 +1,10 @@
+import MyComponents from './MyComponents.jsx'
 
 function App() {
   return (
-    <h1>React Course Tutorial</h1>
+    <>
+      <MyComponents />
+    </>
   )
 }
 

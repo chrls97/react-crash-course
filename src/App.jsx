@@ -1,7 +1,10 @@
+import ToDoList from "./ToDoList";
 
 function App() {
   return (
-    <h1>React Course Tutorial</h1>
+    <>
+    <ToDoList />
+    </>
   )
 }
 

@@ -1,7 +1,8 @@
+import MyComponents from "./MyComponents"
 
 function App() {
   return (
-    <h1>React Course Tutorial</h1>
+    <MyComponents />
   )
 }
 

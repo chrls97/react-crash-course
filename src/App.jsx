@@ -1,7 +1,11 @@
+import DigitalClock from "./DigitalClock"
+
 
 function App() {
   return (
-    <h1>React Course Tutorial</h1>
+    <>
+      <DigitalClock />
+    </>
   )
 }
 

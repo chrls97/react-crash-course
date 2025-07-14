@@ -1,0 +1,82 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  height: 100vh;
+}
+
+.stopwatch{
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 50px;
+  background-color: white;
+}
+
+
+.display{
+  color: rgb(29, 28, 28);
+  font-size: 5rem;
+  font-family: monospace;
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-bottom: 25px;
+}
+
+.controls button{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 10px;
+  min-width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+
+.start-button{
+  background-color: rgb(79, 207, 79);
+}
+
+.start-button:hover{
+  background-color: rgb(60, 156, 60);
+}
+
+.stop-button{
+  background-color: rgb(201, 78, 74);
+}
+
+.stop-button:hover{
+  background-color: rgb(156, 61, 57);
+}
+
+
+.reset-button{
+  background-color: rgb(134, 132, 132);
+}
+
+.reset-button:hover{
+  background-color: rgb(90, 87, 87);
+}
+
+.recorded-time{
+  margin-top: 20px;
+}
+
+.recorded-time span{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.recorded-time li{
+  font-family: monospace;
+   font-size: 2rem;
+  font-weight: bold;
+}

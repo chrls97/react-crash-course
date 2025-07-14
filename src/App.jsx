@@ -1,8 +1,10 @@
-import MyComponents from "./MyComponents"
+import MyComponent from "./MyComponent"
 
 function App() {
   return (
-    <></>
+    <>
+    <MyComponent />
+    </>
   )
 }
 
